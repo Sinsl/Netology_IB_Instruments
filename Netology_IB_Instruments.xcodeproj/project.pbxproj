@@ -13,6 +13,8 @@
 		F440EB0F27ECB0E800407E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F440EB0D27ECB0E800407E36 /* Main.storyboard */; };
 		F440EB1127ECB0EF00407E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440EB1027ECB0EF00407E36 /* Assets.xcassets */; };
 		F440EB1427ECB0EF00407E36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F440EB1227ECB0EF00407E36 /* LaunchScreen.storyboard */; };
+		F440EB1E27ECB4FA00407E36 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F440EB1D27ECB4FA00407E36 /* ProfileView.xib */; };
+		F440EB2127ECC34700407E36 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440EB2027ECC34700407E36 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F440EB1027ECB0EF00407E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F440EB1327ECB0EF00407E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F440EB1527ECB0EF00407E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F440EB1D27ECB4FA00407E36 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		F440EB2027ECC34700407E36 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				F440EB0D27ECB0E800407E36 /* Main.storyboard */,
 				F440EB1027ECB0EF00407E36 /* Assets.xcassets */,
 				F440EB1227ECB0EF00407E36 /* LaunchScreen.storyboard */,
+				F440EB1D27ECB4FA00407E36 /* ProfileView.xib */,
+				F440EB2027ECC34700407E36 /* ProfileView.swift */,
 				F440EB1527ECB0EF00407E36 /* Info.plist */,
 			);
 			path = Netology_IB_Instruments;
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F440EB1E27ECB4FA00407E36 /* ProfileView.xib in Resources */,
 				F440EB1427ECB0EF00407E36 /* LaunchScreen.storyboard in Resources */,
 				F440EB1127ECB0EF00407E36 /* Assets.xcassets in Resources */,
 				F440EB0F27ECB0E800407E36 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F440EB2127ECC34700407E36 /* ProfileView.swift in Sources */,
 				F440EB0C27ECB0E800407E36 /* ViewController.swift in Sources */,
 				F440EB0827ECB0E800407E36 /* AppDelegate.swift in Sources */,
 				F440EB0A27ECB0E800407E36 /* SceneDelegate.swift in Sources */,
